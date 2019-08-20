@@ -34,7 +34,7 @@ export class AuthProvider extends React.Component {
     }
 
     //Logout
-    handleLogout = (histroy) => {
+    handleLogout = (history) => {
         axios.delete('/api/ath/sign_out')
             .then( res => {
                 this.setState({ user: null })

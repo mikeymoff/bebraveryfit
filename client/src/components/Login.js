@@ -30,6 +30,7 @@ class Login extends React.Component {
                 placeholder='Email'
                 onChange={this.handleChange}
                 />
+                <Form.Input
                 label="Password"
                 autoFocus
                 required

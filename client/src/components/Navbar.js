@@ -1,5 +1,5 @@
 import React from 'react';
-import { AuthConsumer, } from '../providers.AuthProvider';
+import { AuthConsumer, } from '../providers/AuthProvider';
 import { Menu, } from 'semantic-ui-react';
 import { Link, withRouter, } from 'react-router-dom';
 
@@ -59,3 +59,4 @@ export class ConnectedNavbar extends React.Component {
         )
     }
 }
+export default withRouter(ConnectedNavbar)

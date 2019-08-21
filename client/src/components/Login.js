@@ -32,11 +32,11 @@ class Login extends React.Component {
                 />
                 <Form.Input
                 label="Password"
-                autoFocus
                 required
                 name='password'
                 value={password}
                 placeholder='Password'
+                type='password'
                 onChange={this.handleChange}
                 />
                 <Segment textAlign='center' basic>
